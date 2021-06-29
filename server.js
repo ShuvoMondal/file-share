@@ -7,6 +7,9 @@ const PORT = process.env.PORT || 5000;
 const connectDB = require('./Config/db');
 connectDB();
 
+//adding db
+//is it working ?
+
 //Routes
 app.use('/api/files', require('./routes/files'));
 
